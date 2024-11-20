@@ -1,6 +1,6 @@
 {
     "name": "tea-enc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A TeaEncryptor for encrypting and decrypting text into numbers using a custom character set and offset key.",
     "main": "src/main.js",
     "scripts": {
@@ -25,7 +25,10 @@
     "dependencies": {
         "debug": "^4.3.7",
         "http-errors": "^2.0.0",
-        "validator": "^13.12.0"
+        "validator": "^13.12.0",
+        "react": "^18",
+        "react-dom": "^18",
+        "next": "14.2.5"
     },
     "devDependencies": {
         "chai": "^5.1.2",
