@@ -1,0 +1,40 @@
+{
+    "name": "@versailles7/coffe",
+    "version": "2.1.1",
+    "description": "A TeaEncryptor for encrypting and decrypting text into numbers using a custom character set and offset key.",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "node tests/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Dxrry/tea-enc"
+    },
+    "type": "module",
+    "keywords": [
+        "tea-int",
+        "encryptor",
+        "decryptor"
+    ],
+    "author": "Dxrry <dxrryr@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Dxrry/tea-enc/issues"
+    },
+    "homepage": "https://github.com/Dxrry/tea-enc#readme",
+    "dependencies": {
+        "chai": "^5.1.2",
+        "debug": "^4.3.7",
+        "http-errors": "^2.0.0",
+        "tea-fresh-pack": "^1.0.2",
+        "validator": "^13.12.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.15.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "mocha": "^10.8.2",
+        "nyc": "^17.1.0",
+        "prettier": "^3.3.3"
+    }
+}
